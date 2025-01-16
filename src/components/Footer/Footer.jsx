@@ -16,10 +16,10 @@ const Footer = () => {
         </h2>
         <p className="footer-text">¡Sígueme en mis medios para más trabajos!</p>
         <div className="footer-icons">
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-icon">
+          <a href="https://www.linkedin.com/in/eddisoniturra/" target="_blank" rel="noopener noreferrer" className="footer-icon">
             🔗
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="footer-icon">
+          <a href="https://github.com/EddieBott" target="_blank" rel="noopener noreferrer" className="footer-icon">
             🐙
           </a>
         </div>

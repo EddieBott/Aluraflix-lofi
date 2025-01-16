@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #c8a2c8, #8a508a);
+  background-color: #e6e0f8;
+  border-bottom: 2px solid #3f3f3f;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header-logo-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.header-title-logo {
+  height: 40px;
+  width: auto;
+  transition: transform 0.3s;
+}
+
+.header-title-logo:hover {
+  transform: scale(1.1);
+}
+
+.header__logo-lofi {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+  padding: 0 4px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.header__logo-lofi:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.header__nav {
+  display: flex;
+  gap: 15px;
+}
+
+.header__button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: 'Courier New', monospace;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #2a2a2a;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header__button:hover {
+  background-color: rgba(163, 145, 199, 0.3);
+  color: #000000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.header__button--primary {
+  background-color: transparent;
+  border: 2px solid #2a2a2a;
+}
+
+.header__button--primary:hover {
+  background-color: rgba(163, 145, 199, 0.5);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+  .header-title-logo {
+    height: 30px;
+  }
+
+  .header__logo-lofi {
+    font-size: 1rem;
+  }
+
+  .header__nav {
+    gap: 10px;
+  }
+
+  .header__button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .header__nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header__button {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+}

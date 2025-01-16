@@ -1,0 +1,132 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "title": "Lofi para Estudiar",
+      "image": "https://github.com/EddieBott/imagenes-videos/blob/main/IMG/ID1.jpg?raw=true",
+      "description": "Canción relajante para concentrarse en los estudios.",
+      "url": "https://www.youtube.com/watch?v=5yx6BWlEVcY",
+      "category": "Estudio"
+    },
+    {
+      "id": "2",
+      "title": "Concentración con Lofi",
+      "image": "https://github.com/EddieBott/imagenes-videos/blob/main/IMG/ID2.jpg?raw=true",
+      "description": "Música lofi para mantenerte enfocado.",
+      "url": "https://www.youtube.com/watch?v=n61ULEU7CO0",
+      "category": "Estudio"
+    },
+    {
+      "id": "3",
+      "title": "Lofi Chill para Relajarse",
+      "image": "https://github.com/EddieBott/imagenes-videos/blob/main/IMG/ID3.jpg?raw=true",
+      "description": "Sonidos suaves para un momento de tranquilidad.",
+      "url": "https://www.youtube.com/watch?v=7NOSDKb0HlU",
+      "category": "Relajación"
+    },
+    {
+      "id": "4",
+      "title": "Relajación Total con Lofi",
+      "image": "https://github.com/EddieBott/imagenes-videos/blob/main/IMG/ID4.jpg?raw=true",
+      "description": "Música lofi para desconectar y relajarse.",
+      "url": "https://www.youtube.com/watch?v=3jWRrafhO7M",
+      "category": "Relajación"
+    },
+    {
+      "id": "5",
+      "title": "Mezcla de hip hop Lofi",
+      "image": "https://github.com/EddieBott/imagenes-videos/blob/main/IMG/ID5.jpg?raw=true",
+      "description": "La música Lofi perfecta para calmar tu ansiedad, dormir o tomar un descanso.",
+      "url": "https://www.youtube.com/watch?v=ff5lO8TkVX8",
+      "category": "Sueño"
+    },
+    {
+      "id": "6",
+      "title": "Lofi para Meditar",
+      "image": "https://github.com/EddieBott/imagenes-videos/blob/main/IMG/ID6.jpg?raw=true",
+      "description": "Canción tranquila para acompañar tu meditación.",
+      "url": "https://www.youtube.com/watch?v=1ZYbU82GVz4",
+      "category": "Sueño"
+    },
+    {
+      "id": "7",
+      "title": "Música Lofi para el Trabajo",
+      "image": "https://github.com/EddieBott/imagenes-videos/blob/main/IMG/ID7.jpg?raw=true",
+      "description": "Melodías suaves para concentrarte en tus tareas.",
+      "url": "https://www.youtube.com/watch?v=lTRiuFIWV54",
+      "category": "Estudio"
+    },
+    {
+      "id": "8",
+      "title": "Lofi Relax 🍃 Lofi Hip Hop",
+      "image": "https://github.com/EddieBott/imagenes-videos/blob/main/IMG/ID8.jpg?raw=true",
+      "description": "Ya sea que estés estudiando, trabajando o descansando, la lista de reproducción te dará un momento relajante.",
+      "url": "https://www.youtube.com/watch?v=UOJ4V3DAAx8",
+      "category": "Relajación"
+    },
+    {
+      "id": "9",
+      "title": "Mezcla de ritmos para 💤",
+      "image": "https://github.com/EddieBott/imagenes-videos/blob/main/IMG/ID9.jpg?raw=true",
+      "description": "#dormir #relajarse #lofi #cuentosdedormir",
+      "url": "https://www.youtube.com/watch?v=gWp8xxB2PxM",
+      "category": "Sueño"
+    },
+    {
+      "id": "10",
+      "title": "Oficina de trabajo Lofi",
+      "image": "https://github.com/EddieBott/imagenes-videos/blob/main/IMG/ID10.jpg?raw=true",
+      "description": "¡Serás llevado a un mundo completamente nuevo con Lofi! Vamos a ser los ritmos de Hip Hop para que te ayuden a relajarte y estudiar.",
+      "url": "https://www.youtube.com/watch?v=nNgIMdc6wqU",
+      "category": "Estudio"
+    },
+    {
+      "id": "1736910914145",
+      "title": "ＣＨＩＬＬ ＤＲＩＶＥ",
+      "image": "https://i.ytimg.com/vi/QGzipqlpDkc/hqdefault.jpg",
+      "description": "Full Album titled 'lovely bumps vol.3' by importmedia\nLo-fi / Chillhop beats mix\nChill & Relaxing",
+      "url": "https://www.youtube.com/watch?v=QGzipqlpDkc",
+      "category": "Relajación"
+    },
+    {
+      "id": "1736994252572",
+      "title": "lofi hip hop radio 💤 beats to sleep/chill to",
+      "image": "https://i.ytimg.com/vi/28KRPhVzCus/hqdefault.jpg",
+      "description": "🧡All visuals and music in this video are 100% crafted by talented human artists, without the use of AI. We’re committed to delivering genuine, hand-made creations for our audience to enjoy.",
+      "url": "https://www.youtube.com/watch?v=28KRPhVzCus",
+      "category": "Sueño"
+    },
+    {
+      "id": "1736994334184",
+      "title": "Noche de lluvia frío LOFI 🌧 Calma tu ansiedad",
+      "image": "https://i.ytimg.com/vi/6j9fpwMNkzQ/hqdefault.jpg",
+      "description": "Música relajante [ritmos de hip hop de lO-fi hop]",
+      "url": "https://www.youtube.com/watch?v=6j9fpwMNkzQ&t=27s",
+      "category": "Sueño"
+    },
+    {
+      "id": "1736994417593",
+      "title": "Breathe 🍀 Lofi Deep Focus",
+      "image": "https://i.ytimg.com/vi/6H-PLF2CR18/hqdefault.jpg",
+      "description": "Study/Calm/Heal [ Lofi Hip Hop - Lofi Chill ]",
+      "url": "https://www.youtube.com/watch?v=6H-PLF2CR18&t=11s",
+      "category": "Relajación"
+    },
+    {
+      "id": "1736994501098",
+      "title": "Musica Para Trabajar 📚 Música Para Estudiar 📚",
+      "image": "https://i.ytimg.com/vi/aQZHAl_eV1c/hqdefault.jpg",
+      "description": "👼 Musica de estudio\n👼 Musicas bonitas\n👼 Lofi hip hop mix\n👼 Música para Estudiar",
+      "url": "https://www.youtube.com/watch?v=aQZHAl_eV1c",
+      "category": "Estudio"
+    },
+    {
+      "id": "1737068893190",
+      "title": "𝙄𝙣 𝙔𝙤𝙪𝙧 𝙎𝙢𝙞𝙡𝙚, 𝙄 𝙁𝙤𝙪𝙣𝙙 𝙃𝙤𝙢𝙚 家",
+      "image": "https://i.ytimg.com/vi/njplg0vBA0Q/hqdefault.jpg",
+      "description": "Lo-Fi Signal FMへようこそ。ここでは、すべての放送がまるで家のように感じられる。今日の放送は、笑顔や静かな草原の中に見つかる、ささやかな瞬間を旅していく。このプレイリストが、家とは場所ではなく、感覚であることを思い出させる避難所となるだろう。",
+      "url": "https://www.youtube.com/watch?v=njplg0vBA0Q",
+      "category": "Estudio"
+    }
+  ]
+}

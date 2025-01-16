@@ -1,0 +1,124 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background: url('../../assets/FondoBanner.jpg') no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  border-bottom: 2px solid #000000;
+  position: relative;
+}
+
+.banner__content {
+  flex: 1;
+  max-width: 65%;
+  z-index: 2;
+  text-align: center;
+  position: relative;
+  background-color: rgba(104, 21, 121, 0.521);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.banner__title,
+.banner__title2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 2px 2px 6px rgba(50, 30, 30, 0.7);
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.banner__description,
+.banner__description2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 1px 1px 5px rgba(60, 40, 40, 0.6);
+  font-family: 'Georgia', serif;
+  line-height: 1.7;
+  font-style: italic;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: black;
+}
+
+.banner__video-thumbnail {
+  display: block;
+  max-width: 30%;
+  cursor: pointer;
+  z-index: 1;
+  margin-left: 20px;
+  border-radius: 12px;
+  padding: 0.5%;
+  background: rgba(104, 21, 121, 0.521);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner__video-thumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+}
+
+.banner__video-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .banner__content {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .banner__title,
+  .banner__title2 {
+    font-size: 1.8rem;
+  }
+
+  .banner__description,
+  .banner__description2 {
+    font-size: 1rem;
+  }
+
+  .banner__video-thumbnail {
+    max-width: 60%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    padding: 15px;
+  }
+
+  .banner__content {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .banner__title,
+  .banner__title2 {
+    font-size: 1.5rem;
+  }
+
+  .banner__description,
+  .banner__description2 {
+    font-size: 0.9rem;
+  }
+
+  .banner__video-thumbnail {
+    max-width: 80%;
+    margin-top: 15px;
+  }
+}

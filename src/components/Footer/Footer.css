@@ -1,0 +1,122 @@
+.footer-container {
+    background: linear-gradient(135deg, #c8a2c8, #8a508a);
+    color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer-content {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .footer-logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+  }
+  
+  .footer-title-logo {
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s;
+  }
+  
+  .footer-title-logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer__logo-lofi {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+    padding: 0 4px;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .footer__logo-lofi:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .footer-text {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    max-width: 400px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .footer-icon {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .footer-icon:hover {
+    color: #d8b4d8;
+    transform: scale(1.2);
+  }
+  
+  .footer-bottom {
+    font-size: 0.9rem;
+    color: #e0e0e0;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-title {
+      font-size: 1.3rem;
+    }
+  
+    .footer-text {
+      font-size: 0.9rem;
+    }
+  
+    .footer-icons {
+      gap: 0.8rem;
+    }
+  
+    .footer-icon {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-title {
+      font-size: 1.1rem;
+    }
+  
+    .footer-text {
+      font-size: 0.8rem;
+    }
+  
+    .footer-icons {
+      gap: 0.6rem;
+    }
+  
+    .footer-icon {
+      font-size: 1.1rem;
+    }
+  }

@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+Aluraflix lofi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aluraflix lofi es una plataforma web creada con React que permite gestionar videos de diferentes categorías. El proyecto implementa funcionalidades como listar, registrar, actualizar, eliminar y reproducir videos, utilizando una API simulada con json-server. Este proyecto refuerza conceptos clave de React como componentización, hooks, manejo de rutas y consumo de APIs.
 
-## Available Scripts
+Tecnologías Utilizadas
 
-In the project directory, you can run:
+React: Biblioteca principal para la construcción de interfaces.
 
-### `npm start`
+React Router: Para la navegación entre páginas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+CSS: Para el diseño y estilo de la aplicación.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+json-server: Para simular una API REST.
 
-### `npm test`
+Funcionalidades Principales
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Home:
 
-### `npm run build`
+Listado de videos organizados por categorías: Frontend, Backend, Innovación y Gestión.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Botones para editar o eliminar videos directamente desde las cards.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Editor de Videos:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Modal para editar la información de un video existente.
 
-### `npm run eject`
+Nuevo Video:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Formulario para registrar un nuevo video en una categoría.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Video Player:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Al hacer click en alguna tarjeta te redireciona a un player de youtube, pero sin salir de l pagína.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Página 404:
 
-## Learn More
+Muestra un mensaje personalizado cuando se navega a una ruta o ID inexistente.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Consumo de API:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Solicitudes GET, POST, PUT y DELETE para gestionar los datos de los videos.
 
-### Code Splitting
+Instalación y Configuración
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Prerrequisitos
 
-### Analyzing the Bundle Size
+Node.js instalado en tu sistema.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm o yarn como gestor de paquetes.
 
-### Making a Progressive Web App
+Pasos para configurar el proyecto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Clonar el repositorio
 
-### Advanced Configuration
+git clone https://github.com/tu-usuario/aluraflix.git
+cd aluraflix
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Instalar las dependencias
 
-### Deployment
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+De por si el servidor esta ligado otro repositorio en git que se ejecuta automaticamente a traves de My Json Server
 
-### `npm run build` fails to minify
+Configurar json-server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Crea un archivo db.json en la raíz del proyecto con la estructura inicial:
+
+{
+  "videos": []
+}
+
+Ejecuta el servidor JSON:
+
+json-server --watch db.json --port 3001(el que quieras)
+
+Iniciar la aplicación
+
+npm start
+
+Estructura del Proyecto
+
+Aluraflix/
+|-- public/
+|-- src/
+    |-- assets/             # Recursos estáticos (imágenes)
+    |-- components/         # Componentes reutilizables (Card, Header, Footer, etc.)
+    |-- pages/              # Páginas principales (Home, Nuevo Video, NotFound, PlayerVideo)
+    |-- App.js              # Configuración principal de React
+    |-- index.js            # Punto de entrada
+    |-- index.css           # Diseños generales
+|-- db.json                 # Base de datos simulada para json-server
+|-- package.json            # Configuración del proyecto
+
+Uso de la Aplicación
+
+Home:
+
+Al ingresar, se muestran los videos organizados por categorías.
+
+Los botones de "Editar" y "Borrar" permiten gestionar los videos directamente.
+
+Registrar Nuevo Video:
+
+Navega a la página "Nuevo Video".
+
+Completa el formulario con los datos del video y selecciona una categoría.
+
+Al guardar, el video aparecerá en la categoría correspondiente en el Home.
+
+Editar Video:
+
+Haz clic en "Editar" en cualquier card.
+
+Se abre un modal para modificar la información.
+
+Guarda los cambios para actualizarlos en la base de datos.
+
+Eliminar Video:
+
+Haz clic en "Borrar" en cualquier card.
+
+El video se eliminará de la base de datos y del Home.
+
+Video Player:
+
+Al hacer click en alguna tarjeta te redireciona a un player de youtube, pero sin salir de l pagína.
+
+Manejo de Errores:
+
+Si se accede a una ID no existente, se muestra la página 404 con un enlace para volver al inicio.
+
+Mejoras Futuras
+
+Implementar autenticación de usuarios.
+
+Agregar paginación para grandes cantidades de videos.
+
+Integrar una API real para almacenamiento persistente.
+
+Mejorar la accesibilidad y optimización de rendimiento.
+
+Contribuciones
+
+Si deseas contribuir a este proyecto, siéntete libre de crear un fork y abrir un pull request con tus mejoras.

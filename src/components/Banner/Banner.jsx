@@ -7,7 +7,7 @@ function Banner() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('http://localhost:3000/videos')
+    fetch('https://my-json-server.typicode.com/EddieBott/aluraflix-api/videos')
       .then((response) => response.json())
       .then((data) => {
         const randomIndex = Math.floor(Math.random() * data.length);
